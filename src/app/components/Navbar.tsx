@@ -29,7 +29,7 @@ const Navbar = () => {
 </div>
 <div className="text-white flex flex-row  md:mr-10 md:gap-10 sm:gap-5  list-none   justify-center  items-center
 w-3/12">
- <li className=" hover:cursor-pointer w-1/5"><a href="/">Home</a></li>
+ <li className=" hover:cursor-pointer w-1/5"><Link href="/">Home</Link></li>
  <li className="hover:cursor-pointer w-1/5">
   <Link href="https://www.governorsindh.com/apply">Apply</Link>
 </li>
