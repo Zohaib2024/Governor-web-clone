@@ -33,7 +33,7 @@ const Hero = () => {
       </div>
       <div className=" flex flex-1 justify-center items-start   w-5/12 ">
       <Image
-        src="/governor.png"
+        src="/Governor.png"
         width={580}
         height={0}
         alt="Governor Sindh Logo"
