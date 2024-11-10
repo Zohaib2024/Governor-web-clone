@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -24,7 +25,7 @@ const Footer = () => {
         <div className='w-3/12 mt-10 space-y-1 m-5 '>
             <h1 className='text-2xl font-bold mb-5'>Social Links</h1>
             <div className='flex flex-row ml-1'>
-            <a href="https://www.facebook.com/TeamKTessori" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.facebook.com/TeamKTessori" >
     <Image
       src="/Facebook logo.png"
       width={50}
@@ -32,8 +33,8 @@ const Footer = () => {
       alt="Facebook"
       className="rounded-full"
     />
-  </a>
-       <a href="https://www.youtube.com/@KamranTessorikk" target="_blank" rel="noopener noreferrer">
+  </Link>
+       <Link href="https://www.youtube.com/@KamranTessorikk" >
   <Image
     src="/Youtube logo.png"
     width={60}
@@ -42,8 +43,8 @@ const Footer = () => {
     className="rounded-full"
   />
 
-</a>
-<a href="/" target="_blank" rel="noopener noreferrer">
+</Link>
+<Link href="/" >
     <Image
       src="/Twitter logo.png"
       width={50}
@@ -51,8 +52,8 @@ const Footer = () => {
       alt="Twitter"
       className="rounded-full"
     />
-  </a>
-  <a href="https://instagram.com/KamranTessoriPk/" target="_blank" rel="noopener noreferrer">
+  </Link>
+  <Link href="https://instagram.com/KamranTessoriPk/" >
     <Image
       src="/insta logo.png"
       width={60}
@@ -60,8 +61,8 @@ const Footer = () => {
       alt="Instagram"
       className="rounded-full"
     />
-  </a>
-  <a href="https://www.tiktok.com/@YourTikTokHandle" target="_blank" rel="noopener noreferrer">
+  </Link>
+  <Link href="https://www.tiktok.com/@YourTikTokHandle" >
     <Image
       src="/tiktok logo.png"
       width={44}
@@ -69,7 +70,7 @@ const Footer = () => {
       alt="TikTok"
       className="rounded-full"
     />
-  </a>
+  </Link>
           
             </div>
 <div className='flex flex-row gap-2 '>
@@ -80,7 +81,7 @@ const Footer = () => {
             alt="Web 2 Using Next.js"   
             className='rounded-full'         
           />
-<a className='text-sky-500 underline-offset-4' href="education@governorsindh.com">education@governorsindh.com</a>
+<Link className='text-sky-500 underline-offset-4' href="education@governorsindh.com">education@governorsindh.com</Link>
 
 </div>
         </div>

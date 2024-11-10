@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Navbar = () => {
   return (
@@ -30,16 +31,16 @@ const Navbar = () => {
 w-3/12">
  <li className=" hover:cursor-pointer w-1/5"><a href="/">Home</a></li>
  <li className="hover:cursor-pointer w-1/5">
-  <a href="https://www.governorsindh.com/apply" target="_blank" rel="noopener noreferrer">Apply</a>
+  <Link href="https://www.governorsindh.com/apply">Apply</Link>
 </li>
 <li className="hover:cursor-pointer w-1/5">
-  <a href="https://www.governorsindh.com/jobs" target="_blank" rel="noopener noreferrer">jobs</a>
+ <Link href="https://www.governorsindh.com/jobs">jobs</Link> 
 </li>
 <li className="hover:cursor-pointer w-1/5">
-  <a href="https://www.governorsindh.com/result" target="_blank" rel="noopener noreferrer">Result</a>
+  <Link href="https://www.governorsindh.com/result" >Result</Link>
 </li>
 <li className="hover:cursor-pointer w-1/5">
-  <a href="/" target="_blank" rel="noopener noreferrer">Courses</a>
+  <Link href="/" >Courses</Link>
 </li>
 </div>
 <div className='w-1/12'></div>
